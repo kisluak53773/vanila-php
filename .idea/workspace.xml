@@ -48,7 +48,6 @@
     "PHP Script.algorithms.php.executor": "Run",
     "PHP Script.search.php.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/dzianis/Documents/php-arrays",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717663397345</updated>
-      <workItem from="1717663398480" duration="7963000" />
+      <workItem from="1717663398480" duration="8231000" />
     </task>
     <servers />
   </component>
