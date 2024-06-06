@@ -8,6 +8,7 @@ function modify(string $string, string $symbol): string
 {
     $result = trim($string);
     $result = str_replace($symbol, "Hello", $result);
+
     return $result;
 }
 

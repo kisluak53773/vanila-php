@@ -16,8 +16,9 @@ echo removeHtmlTags($html) . PHP_EOL;
 
 function findUrls(string $htmlString): array
 {
-    $pattern = '/href=[\'"]?([^\'" >]+)/';
+    $pattern = '/"([a-zA-Z]+[.:\/]+)?(www\.)?[a-zA-Z0-9]+\.[a-z]{2,}([\/a-zA-Z._0-9]+)?"/';
     preg_match_all($pattern, $htmlString, $matches);
+
     return $matches[1];
 }
 
