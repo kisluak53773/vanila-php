@@ -1,0 +1,119 @@
+Index: html.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\ndeclare(strict_types=1);\n\nfunction removeHtmlTags(string $htmlString): string\n{\n    $pattern = \"/<[^>]*>/\";\n    $cleanedString = preg_replace($pattern, '', $htmlString);\n\n    return $cleanedString;\n}\n\n$html = \"<p>some html </p> <h1>example</h1>\";\n\necho removeHtmlTags($html) . PHP_EOL;\n\nfunction findUrls(string $htmlString): array\n{\n    $pattern = '/\"([a-zA-Z]+[.:\\/]+)?(www\\.)?[a-zA-Z0-9]+\\.[a-z]{2,}([\\/a-zA-Z._0-9]+)?\"/';\n    preg_match_all($pattern, $htmlString, $matches);\n\n    return $matches[1];\n}\n\n$text = \"<a href='https://www.google.com'>\";\n\n$result = findUrls($text);\n\nvar_dump($result);\n\necho PHP_EOL;\n
+===================================================================
+diff --git a/html.php b/html.php
+--- a/html.php	
++++ b/html.php	
+@@ -5,9 +5,8 @@
+ function removeHtmlTags(string $htmlString): string
+ {
+     $pattern = "/<[^>]*>/";
+-    $cleanedString = preg_replace($pattern, '', $htmlString);
+ 
+-    return $cleanedString;
++    return preg_replace($pattern, '', $htmlString);
+ }
+ 
+ $html = "<p>some html </p> <h1>example</h1>";
+Index: equal.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\ndeclare(strict_types=1);\n\nfunction compareStrins(string $str1, string $str2): bool\n{\n    return !(bool)strcasecmp($str1, $str2);\n}\n\nfunction sortString(array $strings): array\n{\n    asort($strings);\n\n    return $strings;    \n}\n\n$name1 = \"Alex\";\n$name2 = \"alex\";\n\necho \"Result:\" . compareStrins($name1, $name2) . PHP_EOL;\n\n$strings = [\"Apple\", \"banana\", \"Cat\", \"dog\", \"Elephant\"];\n\nvar_dump(sortString($strings));
+===================================================================
+diff --git a/equal.php b/equal.php
+--- a/equal.php	
++++ b/equal.php	
+@@ -2,9 +2,9 @@
+ 
+ declare(strict_types=1);
+ 
+-function compareStrins(string $str1, string $str2): bool
++function compareStrings(string $str1, string $str2): bool
+ {
+-    return !(bool)strcasecmp($str1, $str2);
++    return !strcasecmp($str1, $str2);
+ }
+ 
+ function sortString(array $strings): array
+@@ -17,7 +17,7 @@
+ $name1 = "Alex";
+ $name2 = "alex";
+ 
+-echo "Result:" . compareStrins($name1, $name2) . PHP_EOL;
++echo "Result:" . compareStrings($name1, $name2) . PHP_EOL;
+ 
+ $strings = ["Apple", "banana", "Cat", "dog", "Elephant"];
+ 
+Index: algorithms.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\ndeclare(strict_types=1);\n\nfunction isAnagram(string $str1, string $str2): bool\n{\n    $word1 = str_split($str1);\n    $word2 = str_split($str2);\n    sort($word1);\n    sort($word2);\n\n    return $word1 === $word1;\n}\n\n$word1 = \"listen\";\n$word2 = \"silent\";\n\necho isAnagram($word1,$word2) . PHP_EOL;\n\nfunction isPalindorm(string $str): bool\n{\n    $lower = strtolower($str);\n    $buffer = str_split($lower);\n\n    $left = 0;\n    $right = count($buffer) - 1;\n\n    while($left < $right){\n        if($buffer[$left] !== $buffer[$right]){\n            return false;\n        }\n\n        $left++;\n        $right--;\n    }\n\n    return true;\n}\n\n$palindrom = 'rotator';\n\necho isPalindorm($palindrom) . PHP_EOL;
+===================================================================
+diff --git a/algorithms.php b/algorithms.php
+--- a/algorithms.php	
++++ b/algorithms.php	
+@@ -9,15 +9,15 @@
+     sort($word1);
+     sort($word2);
+ 
+-    return $word1 === $word1;
++    return $word1 === $word2;
+ }
+ 
+ $word1 = "listen";
+ $word2 = "silent";
+ 
+-echo isAnagram($word1,$word2) . PHP_EOL;
++echo isAnagram($word1, $word2) . PHP_EOL;
+ 
+-function isPalindorm(string $str): bool
++function isPalindrome(string $str): bool
+ {
+     $lower = strtolower($str);
+     $buffer = str_split($lower);
+@@ -25,8 +25,8 @@
+     $left = 0;
+     $right = count($buffer) - 1;
+ 
+-    while($left < $right){
+-        if($buffer[$left] !== $buffer[$right]){
++    while ($left < $right) {
++        if ($buffer[$left] !== $buffer[$right]) {
+             return false;
+         }
+ 
+@@ -37,6 +37,6 @@
+     return true;
+ }
+ 
+-$palindrom = 'rotator';
++$palindrome = 'rotator';
+ 
+-echo isPalindorm($palindrom) . PHP_EOL;
+\ No newline at end of file
++echo isPalindrome($palindrome) . PHP_EOL;
+\ No newline at end of file
+Index: date.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\ndeclare(strict_types=1);\n\nfunction formatDate(string $string): string\n{   \n        $timestamp = strtotime(str_replace('.', '-', $string));\n        $newDate = date('Y-m-d', $timestamp);\n        \n        return $newDate;\n}\n\n$originalDate = \"20.09.2022\";\n\n$formatedDate = formatDate($originalDate);\n\necho $formatedDate . PHP_EOL;
+===================================================================
+diff --git a/date.php b/date.php
+--- a/date.php	
++++ b/date.php	
+@@ -4,10 +4,9 @@
+ 
+ function formatDate(string $string): string
+ {   
+-        $timestamp = strtotime(str_replace('.', '-', $string));
+-        $newDate = date('Y-m-d', $timestamp);
+-        
+-        return $newDate;
++    $timestamp = strtotime(str_replace('.', '-', $string));
++
++    return date('Y-m-d', $timestamp);
+ }
+ 
+ $originalDate = "20.09.2022";
