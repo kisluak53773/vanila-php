@@ -1,0 +1,73 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"59386346-6d44-4503-abf6-bcd497a4dc9a\" name=\"Changes\" comment=\".idea file added\">\n      <change afterPath=\"$PROJECT_DIR$/formating.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/text.php\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/validation.php\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/algorithm.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/analize.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/deletion.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/filter.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/merge.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/multidimansion.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/search.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/sort.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/string.php\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/transformation.php\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;kisluak53773&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/kisluak53773/vanila-php.git&quot;,\n    &quot;accountId&quot;: &quot;e6b2fb1a-1ede-470a-ade6-2c701624010f&quot;\n  }\n}</component>\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"/bin/php\" />\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 7\n}</component>\n  <component name=\"ProjectId\" id=\"2hXfCivTnu7juq9FZSZd5Y2a87V\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;feature/baseOpeartions&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.17011.119\" />\n        <option value=\"bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.17011.119\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task id=\"LOCAL-00001\" summary=\".idea file added\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1717695421818</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1717695421818</updated>\n    </task>\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"59386346-6d44-4503-abf6-bcd497a4dc9a\" name=\"Changes\" comment=\".idea file added\" />\n      <created>1717745218121</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1717745218121</updated>\n      <workItem from=\"1717745219936\" duration=\"710000\" />\n      <workItem from=\"1717747775602\" duration=\"6719000\" />\n      <workItem from=\"1717760118059\" duration=\"668000\" />\n      <workItem from=\"1717762618266\" duration=\"2041000\" />\n      <workItem from=\"1717769616697\" duration=\"1104000\" />\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\".idea file added\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\".idea file added\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,22 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="59386346-6d44-4503-abf6-bcd497a4dc9a" name="Changes" comment=".idea file added">
+-      <change afterPath="$PROJECT_DIR$/formating.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/text.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/validation.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/algorithm.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/analize.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/deletion.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/filter.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/merge.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/multidimansion.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/sort.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/string.php" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/transformation.php" beforeDir="false" />
+-    </list>
++    <list default="true" id="59386346-6d44-4503-abf6-bcd497a4dc9a" name="Changes" comment=".idea file added" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -31,7 +16,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="feature/extendedTasks" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+Index: validation.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\ndeclare(strict_types=1);\n\nfunction validatePassword(string $password): bool\n{\n    $pattern = '/^(?=.*[A-Za-z])(?=.*\\d)(?=.*[@$!%*#?&])[A-Za-z\\d@$!%*#?&]{8,}$/';\n\n    return !!preg_match($pattern, $password);\n}\n\n$password = 'StrongPwd123!';\n\nif(validatePassword($password)){\n    echo 'Password valid' . PHP_EOL;\n} else {\n    echo 'Password should contain at least eight characters, at least one letter, one number and one special character' . PHP_EOL;\n}\n\nfunction validateIp(string $ip): bool\n{\n    $pattern = '/^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/';\n\n    return !!preg_match($pattern, $ip);\n}\n\n$ip = '127.0.0.1';\n\nvar_dump(validateIp($ip));\n
+===================================================================
+diff --git a/validation.php b/validation.php
+--- a/validation.php	
++++ b/validation.php	
+@@ -11,17 +11,18 @@
+ 
+ $password = 'StrongPwd123!';
+ 
+-if(validatePassword($password)){
++if (validatePassword($password)) {
+     echo 'Password valid' . PHP_EOL;
+ } else {
+-    echo 'Password should contain at least eight characters, at least one letter, one number and one special character' . PHP_EOL;
++    echo 'Password should contain at least eight characters, at least one letter,' .
++        'one number and one special character' . PHP_EOL;
+ }
+ 
+ function validateIp(string $ip): bool
+ {
+     $pattern = '/^((25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/';
+ 
+-    return !!preg_match($pattern, $ip);
++    return (bool) preg_match($pattern, $ip);
+ }
+ 
+ $ip = '127.0.0.1';
