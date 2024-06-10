@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59386346-6d44-4503-abf6-bcd497a4dc9a" name="Changes" comment=".idea file added">
-      <change beforePath="$PROJECT_DIR$/date.php" beforeDir="false" afterPath="$PROJECT_DIR$/date.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formating.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analize.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deletion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/merge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multidimansion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/transformation.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +53,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2hXfCivTnu7juq9FZSZd5Y2a87V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,13 +61,13 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/strings&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/baseOpeartions&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -82,7 +96,10 @@
       <option name="presentableId" value="Default" />
       <updated>1717745218121</updated>
       <workItem from="1717745219936" duration="710000" />
-      <workItem from="1717747775602" duration="3731000" />
+      <workItem from="1717747775602" duration="6719000" />
+      <workItem from="1717760118059" duration="668000" />
+      <workItem from="1717762618266" duration="2041000" />
+      <workItem from="1717769616697" duration="1104000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
